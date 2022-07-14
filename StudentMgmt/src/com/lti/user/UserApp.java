@@ -27,6 +27,7 @@ public class UserApp {
 			Student s2= new Student(102,"ViJay",LocalDate.of(2001, 2, 11));
 			Student s3= new Student(103,"AaJay",LocalDate.of(2001, 3, 12));
 			
+			
 			service.register(s1);
 			service.register(s2);
 			service.register(s3);
@@ -36,6 +37,7 @@ public class UserApp {
 			System.out.println("display the student");
 			break;
 		default:
+			System.out.println("select proper option");
 			System.out.println("select proper option");
 			break;
 
