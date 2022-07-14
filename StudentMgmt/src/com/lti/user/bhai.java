@@ -1,3 +1,5 @@
+package com.lti.user;
+
 class bhai {
 public static void main (String args []) {
 
